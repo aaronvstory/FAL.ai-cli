@@ -1,0 +1,29 @@
+{
+  "launcher_version": "3.0",
+  "last_cli_session": "2025-07-24T02:58:20.235937",
+  "user_preferences": {
+    "last_mode": "web",
+    "preferred_model": "kling_21_pro",
+    "default_duration": 5,
+    "default_aspect_ratio": "16:9",
+    "last_directory": "C:\\claude\\FAL.AI-Maroz",
+    "auto_open_web": true,
+    "show_cost_warnings": true,
+    "theme": "default",
+    "web_host": "127.0.0.1",
+    "web_port": 8000
+  },
+  "shared_features": {
+    "prompt_history": true,
+    "favorites": true,
+    "cost_tracking": true,
+    "output_organization": true
+  },
+  "data_locations": {
+    "prompt_history": "data/prompt_history.json",
+    "favorites": "data/favorite_prompts.json",
+    "user_preferences": "data/user_preferences.json",
+    "batch_processing": "data/batch_processing.json",
+    "output_metadata": "data/output_metadata.json"
+  }
+}
