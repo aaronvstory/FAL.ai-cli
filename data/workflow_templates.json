@@ -1,0 +1,156 @@
+{
+  "beginner_guided": {
+    "name": "Beginner-Friendly Workflow",
+    "description": "Step-by-step guidance for first-time users",
+    "steps": [
+      {
+        "type": "welcome",
+        "title": "Welcome to AI Video Generation!"
+      },
+      {
+        "type": "safety_check",
+        "title": "Let's ensure everything is set up"
+      },
+      {
+        "type": "use_case",
+        "title": "What would you like to create?"
+      },
+      {
+        "type": "model_recommendation",
+        "title": "Choosing the right model"
+      },
+      {
+        "type": "image_selection",
+        "title": "Select your starting image"
+      },
+      {
+        "type": "prompt_guidance",
+        "title": "Describe your vision"
+      },
+      {
+        "type": "parameter_simple",
+        "title": "Basic settings"
+      },
+      {
+        "type": "cost_review",
+        "title": "Cost confirmation"
+      },
+      {
+        "type": "generation",
+        "title": "Creating your video"
+      },
+      {
+        "type": "result_explanation",
+        "title": "Understanding your results"
+      }
+    ]
+  },
+  "creator_focused": {
+    "name": "Content Creator Workflow",
+    "description": "Optimized for social media and marketing content",
+    "steps": [
+      {
+        "type": "content_type",
+        "title": "What type of content are you creating?"
+      },
+      {
+        "type": "platform_optimization",
+        "title": "Which platform will this be for?"
+      },
+      {
+        "type": "batch_planning",
+        "title": "Single video or batch creation?"
+      },
+      {
+        "type": "brand_consistency",
+        "title": "Brand and style preferences"
+      },
+      {
+        "type": "quick_generation",
+        "title": "Streamlined creation process"
+      }
+    ]
+  },
+  "professional_grade": {
+    "name": "Professional Workflow",
+    "description": "High-quality production with advanced controls",
+    "steps": [
+      {
+        "type": "project_brief",
+        "title": "Project requirements and specifications"
+      },
+      {
+        "type": "quality_standards",
+        "title": "Quality and technical requirements"
+      },
+      {
+        "type": "model_comparison",
+        "title": "Model selection and optimization"
+      },
+      {
+        "type": "advanced_parameters",
+        "title": "Fine-tuning generation parameters"
+      },
+      {
+        "type": "batch_optimization",
+        "title": "Batch processing and efficiency"
+      },
+      {
+        "type": "quality_assurance",
+        "title": "Review and validation process"
+      }
+    ]
+  },
+  "advanced_control": {
+    "name": "Developer/Power User Workflow",
+    "description": "Full control with technical options",
+    "steps": [
+      {
+        "type": "technical_requirements",
+        "title": "Technical specifications"
+      },
+      {
+        "type": "model_analysis",
+        "title": "Model comparison and selection"
+      },
+      {
+        "type": "parameter_customization",
+        "title": "Advanced parameter control"
+      },
+      {
+        "type": "automation_setup",
+        "title": "Automation and scripting options"
+      },
+      {
+        "type": "monitoring_setup",
+        "title": "Performance monitoring and logging"
+      }
+    ]
+  },
+  "experimentation": {
+    "name": "AI Experimentation Workflow",
+    "description": "Testing and comparing AI models and parameters",
+    "steps": [
+      {
+        "type": "experiment_design",
+        "title": "Experiment planning and objectives"
+      },
+      {
+        "type": "model_matrix",
+        "title": "Model and parameter combinations"
+      },
+      {
+        "type": "controlled_testing",
+        "title": "Systematic testing approach"
+      },
+      {
+        "type": "result_analysis",
+        "title": "Performance analysis and comparison"
+      },
+      {
+        "type": "documentation",
+        "title": "Results documentation and insights"
+      }
+    ]
+  }
+}

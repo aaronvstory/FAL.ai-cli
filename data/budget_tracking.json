@@ -1,0 +1,24 @@
+{
+  "monthly_budget": 10.0,
+  "current_month_spending": 0.7,
+  "total_spending": 0.7,
+  "spending_history": [
+    {
+      "timestamp": "2025-07-24T02:40:33.368631",
+      "model": "kling_21_pro",
+      "cost": 0.45,
+      "description": "Test generation",
+      "month": "2025-07"
+    },
+    {
+      "timestamp": "2025-07-24T02:40:33.369011",
+      "model": "kling_21_standard",
+      "cost": 0.25,
+      "description": "Another test",
+      "month": "2025-07"
+    }
+  ],
+  "budget_alerts": true,
+  "cost_warnings": true,
+  "last_reset": "2025-07"
+}

@@ -1,0 +1,1 @@
+url = fal_client.upload_file("path/to/file")
