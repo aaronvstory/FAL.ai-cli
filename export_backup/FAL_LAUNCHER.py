@@ -642,35 +642,6 @@ class FALLauncher:
                 input(f"{Fore.YELLOW}Press Enter to continue...{Style.RESET_ALL}")
 
 
-# =============================================================================
-# ULTIMATE SINGLE LAUNCHER - All functionality consolidated here
-# =============================================================================
-
-def create_simple_launcher():
-    """Create simple.bat launcher for ultimate convenience"""
-    simple_launcher_content = """@echo off
-title FAL.AI Video Generator
-python FAL_LAUNCHER.py
-"""
-    
-    simple_launcher_path = Path(__file__).parent / "simple.bat"
-    try:
-        with open(simple_launcher_path, 'w') as f:
-            f.write(simple_launcher_content.strip())
-        print(f"✅ Created simple.bat launcher")
-    except Exception as e:
-        print(f"⚠️ Could not create simple.bat: {e}")
-
-def show_cleanup_status():
-    """Show directory cleanup status"""
-    print(f"\n{Fore.GREEN}🧹 DIRECTORY CLEANUP COMPLETED:{Style.RESET_ALL}")
-    print("✅ All redundant launchers removed")
-    print("✅ Duplicate scripts consolidated") 
-    print("✅ Temporary files cleaned")
-    print("✅ Single launcher system active")
-    print(f"\n{Fore.CYAN}Usage: python FAL_LAUNCHER.py{Style.RESET_ALL}")
-
-
 def main():
     """Main entry point"""
     parser = argparse.ArgumentParser(description="FAL.AI Video Generator - Unified Launcher")

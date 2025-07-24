@@ -1,0 +1,95 @@
+{
+  "fal_api_key": "",
+  "default_model": "fal-ai/kling-video/v1/pro/image-to-video",
+  "output_directory": "./data/outputs",
+  "log_level": "INFO",
+  "max_duration": 10,
+  "default_aspect_ratio": "9:16",
+  "models": {
+    "kling_21_master": {
+      "endpoint": "fal-ai/kling-video/v2.1/master/image-to-video",
+      "name": "Kling 2.1 Master",
+      "description": "Unparalleled motion fluidity, cinematic visuals, exceptional prompt precision",
+      "tier": "Premium",
+      "cost_5s": 1.4,
+      "cost_10s": 2.8,
+      "cost_per_second": 0.28,
+      "max_duration": 10,
+      "quality": "Premium",
+      "best_for": "Professional filmmaking, high-end content creation"
+    },
+    "kling_21_pro": {
+      "endpoint": "fal-ai/kling-video/v2.1/pro/image-to-video",
+      "name": "Kling 2.1 Pro",
+      "description": "Enhanced visual fidelity, precise camera movements, dynamic motion control",
+      "tier": "Professional",
+      "cost_5s": 0.45,
+      "cost_10s": 0.9,
+      "cost_per_second": 0.09,
+      "max_duration": 10,
+      "quality": "High",
+      "best_for": "Professional content creation, marketing videos"
+    },
+    "kling_21_standard": {
+      "endpoint": "fal-ai/kling-video/v2.1/standard/image-to-video",
+      "name": "Kling 2.1 Standard",
+      "description": "High-quality generation at cost-efficient pricing",
+      "tier": "Standard",
+      "cost_5s": 0.25,
+      "cost_10s": 0.5,
+      "cost_per_second": 0.05,
+      "max_duration": 10,
+      "quality": "Standard",
+      "best_for": "General content creation, budget-conscious projects"
+    },
+    "kling_20_master": {
+      "endpoint": "fal-ai/kling-video/v2/master/image-to-video",
+      "name": "Kling 2.0 Master",
+      "description": "Legacy premium model with excellent quality",
+      "tier": "Legacy Premium",
+      "cost_5s": 1.4,
+      "cost_10s": 2.8,
+      "cost_per_second": 0.28,
+      "max_duration": 10,
+      "quality": "High",
+      "best_for": "Users who don't need latest 2.1 features"
+    },
+    "kling_16_pro": {
+      "endpoint": "fal-ai/kling-video/v1.6/pro/image-to-video",
+      "name": "Kling 1.6 Pro",
+      "description": "Advanced async generation with good quality",
+      "tier": "Legacy",
+      "cost_5s": 0.475,
+      "cost_10s": 0.95,
+      "cost_per_second": 0.095,
+      "max_duration": 10,
+      "quality": "Good",
+      "best_for": "Testing and legacy projects"
+    },
+    "luma_dream": {
+      "endpoint": "fal-ai/luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "description": "High-quality alternative with competitive pricing",
+      "tier": "Alternative",
+      "cost_5s": 0.5,
+      "cost_10s": 0.9,
+      "cost_per_second": 0.1,
+      "max_duration": 9,
+      "quality": "High",
+      "best_for": "Quick generation, alternative to Kling"
+    },
+    "haiper_20": {
+      "endpoint": "fal-ai/haiper-video-v2/image-to-video",
+      "name": "Haiper 2.0",
+      "description": "Affordable video generation with good results",
+      "tier": "Budget",
+      "cost_5s": 0.2,
+      "cost_10s": 0.4,
+      "cost_per_second": 0.04,
+      "max_duration": 10,
+      "quality": "Good",
+      "best_for": "Budget-friendly video generation"
+    },
+    "workflow": "workflows/dedkamaroz/image-to-video"
+  }
+}
